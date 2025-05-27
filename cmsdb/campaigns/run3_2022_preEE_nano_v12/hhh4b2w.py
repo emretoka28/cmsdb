@@ -68,16 +68,16 @@ cpn.add_dataset(
     n_events=396683,
 )
 
-cpn.add_dataset(
-    name="hhh_bbbbww_c3_2_d4_m1_amcatnlo",
-    id=15035077,
-    processes=[procs.hhh_bbbbww_c3_2_d4_m1],
-    keys=[
-        "/HHHto4B2WtoLNu2Q_c3-2_d4-minus1_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",  # noqa
-    ],
-    n_files=14,
-    n_events=390025,
-)
+# cpn.add_dataset(
+#     name="hhh_bbbbww_c3_2_d4_m1_amcatnlo",
+#     id=15035077,
+#     processes=[procs.hhh_bbbbww_c3_2_d4_m1],
+#     keys=[
+#         "/HHHto4B2WtoLNu2Q_c3-2_d4-minus1_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",  # noqa
+#     ],
+#     n_files=14,
+#     n_events=390025,
+# )
 
 cpn.add_dataset(
     name="hhh_bbbbww_c3_4_d4_9_amcatnlo",
@@ -110,4 +110,15 @@ cpn.add_dataset(
     ],
     n_files=4,
     n_events=386555,
+)
+
+cpn.add_dataset(
+    name="hhh_bbbbww_c3_m1p5_d4_m0p5_amcatnlo",
+    id=15221783,
+    processes=[procs.hhh_bbbbww_c3_m1p5_d4_m0p5],
+    keys=[
+        "/HHHto4B2WtoLNu2Q_c3-minus1p5_d4-minus0p5_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v3/NANOAODSIM",  # noqa
+    ],
+    n_files=16,
+    n_events=393315,
 )
